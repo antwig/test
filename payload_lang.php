@@ -1,3 +1,3 @@
 <?php
-echo "File inclusion success!";
+echo "test";
 ?>
