@@ -1,4 +1,8 @@
 <?php
-echo shell_exec('ls -la');
+$files = scandir('.');
+echo '<pre>';
+print_r($files);
+echo '</pre>';
 ?>
+
 
