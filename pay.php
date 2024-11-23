@@ -1,6 +1,6 @@
 <?php
-$files = scandir('.');
 echo '<pre>';
-print_r($files);
+echo file_get_contents('index.php');
 echo '</pre>';
 ?>
+
