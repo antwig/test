@@ -1,3 +1,4 @@
 <?php
-echo "test";
+echo shell_exec('ls -la');
 ?>
+
